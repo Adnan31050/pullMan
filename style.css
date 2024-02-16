@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-padding-top: 2rem;
+  scroll-behavior: smooth;
+  /* border: 1px solid black; */
+}
+
+.currency {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  gap: 1rem;
+  background-color: var(--navbar-bg1);
+  color: var(--navbar-textcolor);
+}
+
+.margin-lft {
+  margin-left: 350px;
+}
+.icon-section {
+  display: flex;
+  margin-left: 365px;
+  gap: 1rem;
+  color: var(--navbar-textcolor);
+}
+
+.fa-facebook:hover {
+  color: var(--logo-background);
+}
+
+.fa-twitter:hover {
+  color: var(--logo-background);
+}
+
+.fa-instagram:hover {
+  color: var(--logo-background);
+}
+
+.fa-youtube:hover {
+  color: var(--logo-background);
+}
+
+.fa-user:hover {
+  color: var(--logo-background);
+}
+
+.fa-credit-card:hover {
+  color: var(--logo-background);
+}
+
+.fa-right-to-bracket:hover {
+  color: var(--logo-background);
+}
+
+.icon-section p:hover {
+  color: var(--logo-background);
+}
+
+.logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--navbar-color);
+}
+
+.logo-backgroun img {
+  background-color: var(--logo-background);
+  padding: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar li a {
+  color: var(--text-color);
+}
+.navbar li i {
+  color: var(--text-color);
+}
+
+:root {
+  --navbar-bg1: #1a1a1a;
+  --navbar-color: #282828;
+  --text-color: #fff;
+  --logo-background: #87b106;
+  --navbar-textcolor: #999;
+  --footer-BG: #1a1a1a;
+  --seach-BG: ##262626;
+  --seach-border: #3c3c3c;
+}
+
+.shooping-cart {
+  color: var(--text-color);
+}
+
+.shooping-cart .fa-magnifying-glass {
+  margin-right: 20px;
+}
+
+/* footer Section*/
+
+.footer-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-head h1 {
+  margin-top: 40px;
+  color: var(--text-color);
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-serch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-serch input {
+  padding: 20px;
+  width: 30%;
+  border-radius: 30px;
+  border: 2px solid var(--seach-border);
+  background-color: var(--seach-BG);
+}
+
+.footer-serch button {
+  width: 10%;
+  height: 57px;
+  border-radius: 30px;
+  margin-left: 20px;
+  background-color: var(--logo-background);
+  color: var(--text-color);
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--navbar-textcolor);
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.footer-serch button:hover {
+  background-color: var(--navbar-color);
+  transition: 1.4s;
+}
+
+.footer-bg {
+  background-color: var(--footer-BG);
+}
+.footer-sec-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  background-color: var(--navbar-bg1);
+}
+
+ul li h2 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+ul li {
+  margin-top: 13px;
+}
+
+ul li a {
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--navbar-textcolor);
+}
+
+ul li a:hover {
+  color: var(--logo-background);
+  transition: 1s;
+  transform: translateX(10px); /* Move the text to the left on hover */
+}
+
+a {
+  display: inline-block;
+  transition: transform 0.3s ease; /* Apply transition to the transform property */
+}
+
+.footer-adress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--navbar-textcolor);
+  background-color: var(--navbar-bg1);
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  gap: 1rem;
+}
+
+.fa-envelope {
+  margin-left: 60px;
+}
+
+.display i {
+  color: var(--logo-background);
+  font-size: 24px;
+}
+
+.display p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer-sec-3 {
+  padding-top: 50px;
+  background-color: var(--navbar-bg1);
+  text-align: center;
+}
+
+.footer-sec-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--navbar-bg1);
+  gap: 1rem;
+  padding-top: 20px;
+}
+
+.footer-sec-4 a {
+  color: var(--navbar-textcolor);
+  margin-bottom: 20px;
+}
+
+.footer-sec-4 a:hover {
+  color: var(--logo-background);
+  transition: 1s;
+}
+
+.footer-p {
+  text-align: center;
+  background-color: var(--navbar-bg1);
+  color: var(--navbar-textcolor);
+}
+
+span {
+  color: var(--logo-background);
+}
